@@ -35,7 +35,7 @@
   - モデルはDeep Lab v3
   - 画像のリサイズを修正済み
 
-## 20250614:bbox_v1 + segmentation_v3
+## 20250614：bbox_v1 + segmentation_v3
 ### 提出結果は0.49
 ### F1スコア：0.652
 - segmentation_v3
@@ -43,7 +43,7 @@
   - 画像のリサイズによってアスペクト比を変えない処理に変更
     - 長辺の長さに合わせて縦横256に拡大→短辺の足りない箇所は0埋め
 
-## 20250623:segmentation_v4
+## 20250623：segmentation_v4
 ### F1スコア：0.882
 - segmentation_v4
   - データセット条件はv2と同じ
